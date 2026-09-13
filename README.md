@@ -13,7 +13,8 @@ Install by linking or copying a plugin folder into
 
 Bar widget that reads battery sysfs (`BAT0`) and shows live power draw, with
 optional capacity, time remaining, and charge direction. Left-click opens a
-metrics menu to toggle fields, drag-reorder them, and set the sample interval.
+metrics menu to toggle fields, drag-reorder them, set padding / sample interval,
+and manage the charge limiter (defaults to the kernel's current end-threshold).
 Hover tooltip stays open and updates with each sample.
 
 See [local.watts/README.md](local.watts/README.md) for details.
